@@ -15,6 +15,7 @@ public class HitungLuasTharissa {
         System.out.printf("Luas lingkaran adalah %.2f\n", luasTharissa);
         System.out.printf("Keliling lingkaran adalah %.2f\n", kelilingTharissa);
 
+        // test untuk cek eval
     }
 
 }
