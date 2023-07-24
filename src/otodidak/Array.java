@@ -27,6 +27,13 @@ public class Array {
         // mengambil panjang array
         arrayString[0].length();
 
+        // array dalam array
+        String[][] members = {
+                {"tharissa", "najwa"},
+                {"putri", "budiman"},
+                {"ica", "wawa"}
+        };
+
         // output
         System.out.println(arrayString[0]);
         System.out.println(arrayString[1]);
