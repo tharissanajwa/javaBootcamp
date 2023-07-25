@@ -16,15 +16,15 @@ public class SegitigaSiku {
         buatSegitiga(angka);
     }
 
-    private static int buatSegitiga(int angka) {
+    private static void buatSegitiga(int angka) {
+
         int i;
         int j;
         for (i = 1; i <= angka; i++) {
-            System.out.println(" " + i);
             for (j = 1; j <= i; j++) {
-                System.out.printf(" " + j);
+                System.out.printf(" " + i);
             }
+            System.out.println();
         }
-        return angka;
     }
 }
