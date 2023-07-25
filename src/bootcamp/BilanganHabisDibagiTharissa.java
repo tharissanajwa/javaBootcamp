@@ -20,6 +20,7 @@ public class BilanganHabisDibagiTharissa {
 
     }
 
+    // membuat metode untuk melakukan perhitungan
     private static void hitungBilanganTharissa(int bilanganTharissa) {
         if ((bilanganTharissa % 3 == 0) && (bilanganTharissa % 5 == 0)) {
             System.out.println("Bilangan " + bilanganTharissa + " memenuhi kondisi.");
